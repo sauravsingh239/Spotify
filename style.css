@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+}
+li span{
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 33px;
+    text-transform: capitalize;
+}
+nav img{
+    width: 10%
+}
+.container h1{
+    margin: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.container{
+    min-height: 72vh;
+    background-color: #000;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 15px;
+    background-image: url("https://e0.pxfuel.com/wallpapers/373/433/desktop-wallpaper-light-headphones-music-headphones-girl-lines-dj-girls-colors.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    background-color: black;
+    height: 13vh;
+    bottom: 0;
+}
+.bottom input{
+    position: absolute;
+    bottom: 50%;
+    width: 90vw;
+    border-radius: 20px;
+}
+.icons{
+    color: #fff;
+    position: absolute;
+    bottom: 2%;
+    margin-top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.songlist{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    right: 0;
+    width:20vw;
+    margin-top: 10px;
+    margin-right: 18px;
+}
+.songItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    /* width: 95%; */
+    background-color: #2f2a2a;
+    margin: 12px 0;
+    border-radius: 18px;
+    padding: 10px;
+}
+.songItem img{
+    /* width: 12%; */
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.songItem i{
+    cursor: pointer;
+    font-size: 22px;
+}
+.songName{
+    text-transform: capitalize;
+}
+.songInfo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0 ;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 4px;
+}
+.songInfo img{
+    width: 5vw;
+    opacity: -1;
+}
